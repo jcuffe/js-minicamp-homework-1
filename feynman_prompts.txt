@@ -1,0 +1,55 @@
+Variables
+
+A variable is a way for us to store important information that we want to use later. 
+In addition to the information, which is called its 'value', a variable has a name 
+that we choose. A variable can stand for almost anything you can imagine, but they 
+are usually used to hold numbers, letters, and other variables. You can use a variable 
+by using its name in the instructions of your program - you can read the value without
+changing it, or you can change the value to another one. For convenience, variables
+are treated differently depending on what type of information is contained in their
+value. Some languages are strict and demand that you label a variable as having a
+certain type of value before you use them. Javascript is not one of these languages,
+but some variables are treated differently than others, such as Strings.
+
+Strings
+
+Strings are values made of information that are meant to be read by a person. They
+will usually contain common letters and numbers, and they are treated differently
+by the language when used in instructions. Since strings are made for storing readable
+information, it is very convenient to add and remove parts of the string. Another
+common use of strings is searching for important information, and many easy ways to
+search strings have been invented.
+
+Functions
+
+Functions are a way for us to use instructions more than once. Functions commonly have
+a group of instructions that runs an important calculation, such as finding the area
+of a circle or the speed of a rocket. When we want the result of any of these calculations,
+we 'call' the function by using its name in an instruction. Functions allow us to reuse 
+code by creating in a separate space from the rest of the program in order to do their
+work. If a function needs information in order to run its calculation, we have to supply
+the information when we call the function. When the function is finished with its task,
+we have the option of 'returning' a value, usually the result of the calculation. If
+we return a value from the function, we can store it in a variable. We can also use
+a function in our instructions as if it actually were the value that it will return
+when it's called.
+
+If Statements
+
+In our programs, there will be many instructions that we only want to be executed
+some of the time. To make sure that our instructions run exactly when we want them to,
+we describe what we expect to be true using an If statement. An If statement is a
+special type of instruction that takes one argument and decides whether other 
+instructions will be executed. An If statement can only understand an argument that
+boils down to yes (True) or no (False), so we craft the argument carefully to make
+sure that our instructions run exactly when we want them to.
+
+Boolean Values
+
+The 'yes' and 'no' values that the If statement uses are called Boolean values, and
+are referred to in programming as True and False. They are another type of special
+value used to make programming easier. Booleans are used anywhere decisions need
+to be made in your instructions. Since a Boolean can only be either True or False,
+they are often used as the result of a calculation that is being used to make a 
+choice. Many special instructions that compare values to each other return Boolean
+values, making them very good in arguments for If statements.
